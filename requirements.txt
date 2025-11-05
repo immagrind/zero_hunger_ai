@@ -1,6 +1,16 @@
+# core
 streamlit>=1.24
-pandas>=1.5
-numpy>=1.24
+
+# data + plotting
+pandas>=1.5.3
+numpy==1.24.3
+plotly>=5.14
+matplotlib>=3.5.3
+
+# ML (use a scikit-learn version known to have Linux wheels for py3.10)
 scikit-learn==1.2.2
-plotly>=5.0
-matplotlib>=3.5
+scipy==1.10.1
+joblib==1.2.0
+
+# lightweight extras
+python-dateutil
